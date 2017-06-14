@@ -1,4 +1,4 @@
-
+ (function($) {
 
 jQuery(document).ready(function() {
     // for hover dropdown menu
@@ -69,3 +69,4 @@ jQuery(window).load(function() { // makes sure the whole site is loaded
         'overflow': 'visible'
     });
 })
+})(jQuery);

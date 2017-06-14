@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {(function($){ $(document).ready(function(){  /*!
+ (function($) {  /*!
  * liScroll 1.0
  * Examples and documentation at:
  * http://www.gcmingati.net/wordpress/wp-content/lab/jquery/newsticker/jq-liscroll/scrollanimate.html
@@ -44,4 +44,4 @@ jQuery.fn.liScroll = function(settings) {
 				});
 		});
 };
-}); })(jQuery);
+})(jQuery);
