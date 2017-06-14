@@ -4,22 +4,22 @@
       <h2><span>Noticias Populares</span></h2>
       <ul class="spost_nav">
         <li>
-          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img1.jpg"> </a>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
             <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
           </div>
         </li>
         <li>
-          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img2.jpg"> </a>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
             <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
           </div>
         </li>
         <li>
-          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img1.jpg"> </a>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
             <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
           </div>
         </li>
         <li>
-          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img2.jpg"> </a>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
             <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
           </div>
         </li>
@@ -51,22 +51,22 @@
         <div role="tabpanel" class="tab-pane" id="comments">
           <ul class="spost_nav">
             <li>
-              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img1.jpg"> </a>
+              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
                 <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
               </div>
             </li>
             <li>
-              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img2.jpg"> </a>
+              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
                 <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
               </div>
             </li>
             <li>
-              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img1.jpg"> </a>
+              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
                 <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
               </div>
             </li>
             <li>
-              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/post_img2.jpg"> </a>
+              <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
                 <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
               </div>
             </li>
@@ -76,7 +76,7 @@
     </div>
     <div class="single_sidebar wow fadeInDown">
       <h2><span>Patrocinado Por</span></h2>
-      <a class="sideAdd" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/add_img.jpg" alt="" class="img-responsive"></a> </div>
+      <a class="sideAdd" href="#"><img src="images/add_img.jpg" alt="" class="img-responsive"></a> </div>
     <div class="single_sidebar wow fadeInDown">
       <h2><span>Categorias Archivados</span></h2>
       <select class="catgArchive">
@@ -98,3 +98,5 @@
     </div>
   </aside>
 </div>
+</div>
+</section>

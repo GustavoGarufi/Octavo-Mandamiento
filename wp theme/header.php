@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><?php wp_title(' | ', true, 'right'); ?></title>
+<title>8to Mandamiento</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +12,8 @@
 <script src="assets/js/respond.min.js"></script>
 <![endif]-->
 </head>
-
 <body>
-<!-- <div id="preloader"> -->
+<div id="preloader">
   <div id="status">&nbsp;</div>
 </div>
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
@@ -31,13 +30,13 @@
             </ul>
           </div>
           <div class="header_top_right">
-            <p> <?php the_time('l, F jS, Y') ?> not working</p>
+            <p> <?php the_time('l, F jS, Y') ?> </p>
           </div>
         </div>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="header_bottom">
-          <a href="index.html" class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" alt=""></a>
+          <a href="index.html" class="logo"><img src="images/logo.jpg" alt=""></a>
         </div>
       </div>
     </div>
