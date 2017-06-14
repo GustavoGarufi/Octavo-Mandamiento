@@ -31,7 +31,7 @@
             </ul>
           </div>
           <div class="header_top_right">
-            <p> <?php the_time('l, F jS, Y') ?></p>
+            <p> <?php the_time('l, F jS, Y') ?> not working</p>
           </div>
         </div>
       </div>
