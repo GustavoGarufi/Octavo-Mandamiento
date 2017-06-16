@@ -1,5 +1,53 @@
 <?php
 
+add_theme_support( 'post-thumbnails' );
+
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Sidebar Uno',
+		'id'            => 'widget1',
+		'before_widget' => '<div class="single_sidebar">',
+		'after_widget'  => '</div>',
+    'before_title'  => '<h2><span>',
+		'after_title'   => '</span></h2> <br>',
+	) );
+  register_sidebar( array(
+		'name'          => 'Sidebar Dos',
+		'id'            => 'widget2',
+		'before_widget' => '<div class="single_sidebar wow fadeInDown">',
+		'after_widget'  => '</div>',
+    'before_title'  => '<h2><span>',
+		'after_title'   => '</span></h2><br>',
+	) );
+  register_sidebar( array(
+		'name'          => 'Sidebar Tres',
+		'id'            => 'widget3',
+		'before_widget' => '<div class="single_sidebar wow fadeInDown">',
+		'after_widget'  => '</div>',
+    'before_title'  => '<h2><span>',
+		'after_title'   => '</span></h2><br>',
+	) );
+  register_sidebar( array(
+		'name'          => 'Pie de Pagina Uno',
+		'id'            => 'widget4',
+		'before_widget' => '<div class="footer_widget wow fadeInLeft">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
+	) );
+  register_sidebar( array(
+		'name'          => 'Pie de Pagina Dos',
+		'id'            => 'widget5',
+		'before_widget' => '<div class="footer_widget wow fadeInRight">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
 function octavomandamiento_styles() {
 /* Deregister */
   wp_deregister_style('bootstrap');
