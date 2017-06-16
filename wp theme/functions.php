@@ -1,6 +1,33 @@
 <?php
 
 add_theme_support( 'post-thumbnails' );
+add_theme_support( 'custom-logo' );
+
+function octavomandamiento_customize_register( $wp_customize ) {
+
+}
+add_action( 'customize_register', 'octavomandamiento_customize_register' );
+
+function octavomandamiento_custom_logo() {
+    $defaults = array(
+        'flex-height' => true,
+        'flex-width'  => true,
+        'header-text' => array( 'site-title', 'site-description' ),
+    );
+    add_theme_support( 'custom-logo', $defaults );
+}
+add_action( 'after_setup_theme', 'octavomandamiento_custom_logo' );
+
+add_filter( 'get_custom_logo', 'change_logo_class' );
+
+
+function change_logo_class( $html ) {
+
+    $html = str_replace( 'custom-logo', 'img-responsive', $html );
+
+    return $html;
+}
+
 
 function arphabet_widgets_init() {
 

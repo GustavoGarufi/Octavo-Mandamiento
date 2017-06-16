@@ -36,7 +36,7 @@
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="header_bottom">
-          <a href="index.html" class="logo"><img src="images/logo.jpg" alt=""></a>
+          <a href="index.html" class="logo"><?php if ( function_exists( 'the_custom_logo' ) ) { the_custom_logo(); } ?> </a>
         </div>
       </div>
     </div>
