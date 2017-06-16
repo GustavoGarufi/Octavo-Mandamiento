@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.7.5" created="2017-06-16 03:21" -->
+<!-- generator="WordPress/4.7.5" created="2017-06-16 22:56" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,10 +26,10 @@
 >
 
 <channel>
-	<title>octavo mandamiento</title>
+	<title>Octavo Mandamiento</title>
 	<link>http://localhost/8mandamiento</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 16 Jun 2017 03:21:46 +0000</pubDate>
+	<pubDate>Fri, 16 Jun 2017 22:56:01 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/8mandamiento</wp:base_site_url>
@@ -73,6 +73,13 @@
 <wp:category_description><![CDATA[Vea piezas de fotografía aqui, en octavo mandamiento]]></wp:category_description>
 	</wp:category>
 	<wp:category>
+		<wp:term_id>10</wp:term_id>
+		<wp:category_nicename><![CDATA[futbol]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[deportes]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Fútbol]]></wp:cat_name>
+<wp:category_description><![CDATA[Deportes]]></wp:category_description>
+	</wp:category>
+	<wp:category>
 		<wp:term_id>7</wp:term_id>
 		<wp:category_nicename><![CDATA[moda]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[entretenimiento]]></wp:category_parent>
@@ -84,6 +91,13 @@
 		<wp:category_nicename><![CDATA[mujer]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Mujer]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>13</wp:term_id>
+		<wp:category_nicename><![CDATA[otros]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[deportes]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Otros Deportes]]></wp:cat_name>
+<wp:category_description><![CDATA[Deportes]]></wp:category_description>
 	</wp:category>
 	<wp:category>
 		<wp:term_id>4</wp:term_id>
@@ -113,6 +127,20 @@
 		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
 	</wp:category>
 	<wp:category>
+		<wp:term_id>12</wp:term_id>
+		<wp:category_nicename><![CDATA[baloncesto]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[deportes]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Baloncesto]]></wp:cat_name>
+<wp:category_description><![CDATA[Deportes]]></wp:category_description>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>11</wp:term_id>
+		<wp:category_nicename><![CDATA[beisbol]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[deportes]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Beisbol]]></wp:cat_name>
+<wp:category_description><![CDATA[Deportes]]></wp:category_description>
+	</wp:category>
+	<wp:category>
 		<wp:term_id>17</wp:term_id>
 		<wp:category_nicename><![CDATA[cine-y-teatro]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[entretenimiento]]></wp:category_parent>
@@ -120,22 +148,109 @@
 <wp:category_description><![CDATA[Aquí podra ver la novedades detras de sus peliculas y obras favoritas!]]></wp:category_description>
 	</wp:category>
 	<wp:tag>
-		<wp:term_id>12</wp:term_id>
+		<wp:term_id>28</wp:term_id>
 		<wp:tag_slug><![CDATA[basketball]]></wp:tag_slug>
 		<wp:tag_name><![CDATA[Basketball]]></wp:tag_name>
-<wp:tag_description><![CDATA[Deportes]]></wp:tag_description>
 	</wp:tag>
 	<wp:tag>
-		<wp:term_id>11</wp:term_id>
-		<wp:tag_slug><![CDATA[beisbol]]></wp:tag_slug>
-		<wp:tag_name><![CDATA[Beisbol]]></wp:tag_name>
-<wp:tag_description><![CDATA[Deportes]]></wp:tag_description>
+		<wp:term_id>34</wp:term_id>
+		<wp:tag_slug><![CDATA[biologia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Biologia]]></wp:tag_name>
 	</wp:tag>
 	<wp:tag>
-		<wp:term_id>10</wp:term_id>
-		<wp:tag_slug><![CDATA[football]]></wp:tag_slug>
-		<wp:tag_name><![CDATA[Football]]></wp:tag_name>
-<wp:tag_description><![CDATA[Deportes]]></wp:tag_description>
+		<wp:term_id>23</wp:term_id>
+		<wp:tag_slug><![CDATA[ciencia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Ciencia]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>19</wp:term_id>
+		<wp:tag_slug><![CDATA[cocina]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Cocina]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>27</wp:term_id>
+		<wp:tag_slug><![CDATA[deportes-extremos]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Deportes Extremos]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>37</wp:term_id>
+		<wp:tag_slug><![CDATA[drones]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Drones]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>41</wp:term_id>
+		<wp:tag_slug><![CDATA[e3]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[E3]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>35</wp:term_id>
+		<wp:tag_slug><![CDATA[eeuu]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[EEUU]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>33</wp:term_id>
+		<wp:tag_slug><![CDATA[europa]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Europa]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>42</wp:term_id>
+		<wp:tag_slug><![CDATA[fashion]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Fashion]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>46</wp:term_id>
+		<wp:tag_slug><![CDATA[francia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Francia]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>30</wp:term_id>
+		<wp:tag_slug><![CDATA[futbol]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Fútbol]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>36</wp:term_id>
+		<wp:tag_slug><![CDATA[hockey]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Hockey]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>45</wp:term_id>
+		<wp:tag_slug><![CDATA[hombre]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Hombre]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>44</wp:term_id>
+		<wp:tag_slug><![CDATA[inglaterra]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Inglaterra]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>47</wp:term_id>
+		<wp:tag_slug><![CDATA[italia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Italia]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>49</wp:term_id>
+		<wp:tag_slug><![CDATA[mayor-league-baseball]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Mayor League Baseball]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>48</wp:term_id>
+		<wp:tag_slug><![CDATA[mlb]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[MLB]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>43</wp:term_id>
+		<wp:tag_slug><![CDATA[moda]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Moda]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>24</wp:term_id>
+		<wp:tag_slug><![CDATA[netflix]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Netflix]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>32</wp:term_id>
+		<wp:tag_slug><![CDATA[nueva-esparta]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Nueva Esparta]]></wp:tag_name>
 	</wp:tag>
 	<wp:tag>
 		<wp:term_id>14</wp:term_id>
@@ -143,26 +258,80 @@
 		<wp:tag_name><![CDATA[Opinion]]></wp:tag_name>
 	</wp:tag>
 	<wp:tag>
-		<wp:term_id>13</wp:term_id>
-		<wp:tag_slug><![CDATA[otros]]></wp:tag_slug>
-		<wp:tag_name><![CDATA[Otros Deportes]]></wp:tag_name>
-<wp:tag_description><![CDATA[Deportes]]></wp:tag_description>
+		<wp:term_id>25</wp:term_id>
+		<wp:tag_slug><![CDATA[politica]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Politica]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>26</wp:term_id>
+		<wp:tag_slug><![CDATA[protestas]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Protestas]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>40</wp:term_id>
+		<wp:tag_slug><![CDATA[seguridad]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Seguridad]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>39</wp:term_id>
+		<wp:tag_slug><![CDATA[smart]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Smart]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>29</wp:term_id>
+		<wp:tag_slug><![CDATA[sub20]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Sub20]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>20</wp:term_id>
+		<wp:tag_slug><![CDATA[tecnologia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Tecnologia]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>22</wp:term_id>
+		<wp:tag_slug><![CDATA[television]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Television]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>18</wp:term_id>
+		<wp:tag_slug><![CDATA[tips]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Tips]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>38</wp:term_id>
+		<wp:tag_slug><![CDATA[trafico]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Tráfico]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>31</wp:term_id>
+		<wp:tag_slug><![CDATA[vacaciones]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Vacaciones]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>21</wp:term_id>
+		<wp:tag_slug><![CDATA[video-juegos]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Video Juegos]]></wp:tag_name>
 	</wp:tag>
 	<wp:term>
-		<wp:term_id><![CDATA[12]]></wp:term_id>
+		<wp:term_id><![CDATA[28]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[basketball]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Basketball]]></wp:term_name>
-		<wp:term_description><![CDATA[Deportes]]></wp:term_description>
 	</wp:term>
 	<wp:term>
-		<wp:term_id><![CDATA[11]]></wp:term_id>
+		<wp:term_id><![CDATA[34]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[beisbol]]></wp:term_slug>
+		<wp:term_slug><![CDATA[biologia]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Beisbol]]></wp:term_name>
-		<wp:term_description><![CDATA[Deportes]]></wp:term_description>
+		<wp:term_name><![CDATA[Biologia]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[23]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[ciencia]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Ciencia]]></wp:term_name>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[9]]></wp:term_id>
@@ -173,12 +342,40 @@
 		<wp:term_description><![CDATA[Aprende nueva recetas de cocina aqui, en Octavo Mandamiento!]]></wp:term_description>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[19]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[cocina]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Cocina]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[3]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[deportes]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Deportes]]></wp:term_name>
 		<wp:term_description><![CDATA[Nunca te pierdas de los juegos de su equipos favoritos aquí, en octavo mandamiento!]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[27]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[deportes-extremos]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Deportes Extremos]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[37]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[drones]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Drones]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[41]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[e3]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[E3]]></wp:term_name>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[8]]></wp:term_id>
@@ -189,6 +386,13 @@
 		<wp:term_description><![CDATA[Porque nunca es demasiado tarde para aprender cosas nuevas.]]></wp:term_description>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[35]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[eeuu]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[EEUU]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[15]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[entretenimiento]]></wp:term_slug>
@@ -197,12 +401,18 @@
 		<wp:term_description><![CDATA[Consiga las ultimas tendencias en entretenimiento aquí, en octavo mandamiento!]]></wp:term_description>
 	</wp:term>
 	<wp:term>
-		<wp:term_id><![CDATA[10]]></wp:term_id>
+		<wp:term_id><![CDATA[33]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[football]]></wp:term_slug>
+		<wp:term_slug><![CDATA[europa]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Football]]></wp:term_name>
-		<wp:term_description><![CDATA[Deportes]]></wp:term_description>
+		<wp:term_name><![CDATA[Europa]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[42]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[fashion]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Fashion]]></wp:term_name>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[16]]></wp:term_id>
@@ -213,6 +423,70 @@
 		<wp:term_description><![CDATA[Vea piezas de fotografía aqui, en octavo mandamiento]]></wp:term_description>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[46]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[francia]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Francia]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[10]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[futbol]]></wp:term_slug>
+		<wp:term_parent><![CDATA[deportes]]></wp:term_parent>
+		<wp:term_name><![CDATA[Fútbol]]></wp:term_name>
+		<wp:term_description><![CDATA[Deportes]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[30]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[futbol]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Fútbol]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[36]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[hockey]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Hockey]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[45]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[hombre]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Hombre]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[44]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[inglaterra]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Inglaterra]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[47]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[italia]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Italia]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[49]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[mayor-league-baseball]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Mayor League Baseball]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[48]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[mlb]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[MLB]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[7]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[moda]]></wp:term_slug>
@@ -221,11 +495,32 @@
 		<wp:term_description><![CDATA[De Paris a Nueva York vamos a explorar lo ultimo en fashion aqui, en octavo mandamiento.]]></wp:term_description>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[43]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[moda]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Moda]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[6]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[mujer]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Mujer]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[24]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[netflix]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Netflix]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[32]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[nueva-esparta]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Nueva Esparta]]></wp:term_name>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[14]]></wp:term_id>
@@ -236,9 +531,9 @@
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[13]]></wp:term_id>
-		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[otros]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_parent><![CDATA[deportes]]></wp:term_parent>
 		<wp:term_name><![CDATA[Otros Deportes]]></wp:term_name>
 		<wp:term_description><![CDATA[Deportes]]></wp:term_description>
 	</wp:term>
@@ -251,12 +546,47 @@
 		<wp:term_description><![CDATA[Aquí podra leer lo ultimo que pasa en la politica venezolana.]]></wp:term_description>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[25]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[politica]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Politica]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[26]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[protestas]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Protestas]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[5]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[regional]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Regionales]]></wp:term_name>
 		<wp:term_description><![CDATA[Vamos a explorar las noticias destacadas de Nueva Esparta.]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[40]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[seguridad]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Seguridad]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[39]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[smart]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Smart]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[29]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[sub20]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Sub20]]></wp:term_name>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[2]]></wp:term_id>
@@ -267,11 +597,69 @@
 		<wp:term_description><![CDATA[Lo ultimo en la vanguardia de tecnología aquí, en octavo mandamiento.]]></wp:term_description>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[20]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[tecnologia]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Tecnologia]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[22]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[television]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Television]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[18]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[tips]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Tips]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[38]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[trafico]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Tráfico]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[1]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Uncategorized]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[31]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[vacaciones]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Vacaciones]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[21]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[video-juegos]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Video Juegos]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[12]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[baloncesto]]></wp:term_slug>
+		<wp:term_parent><![CDATA[deportes]]></wp:term_parent>
+		<wp:term_name><![CDATA[Baloncesto]]></wp:term_name>
+		<wp:term_description><![CDATA[Deportes]]></wp:term_description>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[11]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[beisbol]]></wp:term_slug>
+		<wp:term_parent><![CDATA[deportes]]></wp:term_parent>
+		<wp:term_name><![CDATA[Beisbol]]></wp:term_name>
+		<wp:term_description><![CDATA[Deportes]]></wp:term_description>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[17]]></wp:term_id>
@@ -1096,6 +1484,8 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1135,6 +1525,10 @@ Nulla mattis ligula nibh, non mattis massa sollicitudin sit amet. In ac venenati
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="europa"><![CDATA[Europa]]></category>
+		<category domain="post_tag" nicename="italia"><![CDATA[Italia]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1142,82 +1536,6 @@ Nulla mattis ligula nibh, non mattis massa sollicitudin sit amet. In ac venenati
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[11]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>El verdadero beneficio de comer zanahorias</title>
-		<link>http://localhost/8mandamiento/2017/06/15/el-verdadero-beneficio-de-comer-zanahorias/</link>
-		<pubDate>Thu, 15 Jun 2017 02:10:55 +0000</pubDate>
-		<dc:creator><![CDATA[octavo]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/8mandamiento/?p=13</guid>
-		<description></description>
-		<content:encoded><![CDATA[Suspendisse potenti. In eget finibus urna. Mauris tempor vel quam in ultrices. Vestibulum pretium nunc a diam ornare, non semper velit imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Nam id leo dapibus, maximus ante ut, pulvinar dui. Nullam eget tortor tellus.
-<h3>Lorem Ipsum</h3>
-Pellentesque venenatis dolor tempus tempus placerat. <em>Nam semper luctus erat, eu cursus nulla condimentum et. Nunc vulputate nunc porttitor neque ultricies fermentum.</em> Etiam bibendum accumsan nisl id maximus. Aliquam erat volutpat. Cras nunc tellus, commodo et libero ac, auctor venenatis magna. Duis dictum elit non eros consequat tempus. Ut elementum mi at ante elementum, ac egestas lacus commodo. Aenean bibendum justo vitae mauris rutrum dapibus. <em>Donec porta mauris bibendum, vestibulum tellus vitae, dapibus nulla</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in dolor a nulla ultricies malesuada ac id nibh.
-
-Curabitur a quam nisi. Duis non ante ipsum. Nam porttitor sed augue non faucibus. Aenean ultrices sem eget nunc varius ultrices. Sed gravida euismod tempus. Aliquam convallis consequat posuere. Mauris porttitor nec felis in scelerisque. Ut aliquet nulla sit amet nibh imperdiet luctus. Donec eu rhoncus risus. In eleifend sit amet neque hendrerit condimentum. <em>Suspendisse molestie tincidunt pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in sollicitudin nibh.</em> Quisque id ornare lorem. Phasellus mollis, metus ac pharetra semper, augue enim vehicula sapien, quis volutpat massa purus id purus. In porta magna at venenatis sollicitudin.
-
-Aliquam vitae diam vel leo sagittis sagittis vel non purus. <strong>Integer id consequat sapien.</strong> Donec eleifend volutpat augue at pharetra. Suspendisse ac justo sit amet erat sodales volutpat. Aenean ut porta felis. Aliquam a ultrices velit. Pellentesque justo libero, tincidunt a sollicitudin quis, ullamcorper in nunc. Duis vel malesuada leo. Integer convallis nulla nec faucibus vehicula.
-
-Nulla mattis ligula nibh, non mattis massa sollicitudin sit amet. In ac venenatis nunc. Nam quis erat egestas, euismod sem a, elementum mi. Suspendisse potenti. Duis vestibulum velit vitae metus ullamcorper, interdum malesuada mi tincidunt. Praesent nibh felis, consectetur a dui eget, varius ultricies quam. Integer tincidunt tortor non aliquam lacinia.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2017-06-15 02:10:55]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-06-15 02:10:55]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[el-verdadero-beneficio-de-comer-zanahorias]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[14]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Nuevas especies que tienes que probar en su cocina!</title>
-		<link>http://localhost/8mandamiento/2017/06/15/nuevas-especies-que-tienes-que-probar-en-su-cocina/</link>
-		<pubDate>Thu, 15 Jun 2017 02:13:46 +0000</pubDate>
-		<dc:creator><![CDATA[octavo]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/8mandamiento/?p=16</guid>
-		<description></description>
-		<content:encoded><![CDATA[Donec aliquet egestas metus quis accumsan. Aenean mattis varius rhoncus. Duis aliquam dolor nisi, quis sollicitudin dolor ultrices at. Fusce commodo velit in dignissim volutpat. Nulla sed consectetur enim, quis venenatis dolor. Phasellus vulputate eu sem at mollis. Ut in ligula ut magna pharetra gravida id id nisl. Nunc sed ante et est cursus molestie. Mauris placerat elementum iaculis. Nam posuere sed dolor ac aliquam. Nam eu augue aliquam, porttitor libero eget, bibendum dui. Morbi eget dolor sed felis fringilla interdum. Morbi dapibus turpis mattis eros vestibulum hendrerit. Maecenas sed nunc eros.
-
-Donec viverra elit orci, sed tristique mauris feugiat nec. Morbi fringilla libero id sapien elementum porttitor. Donec mollis condimentum mi vel fringilla. Maecenas tincidunt interdum tortor eu pharetra. Nulla arcu elit, elementum et turpis sed, malesuada sagittis tellus. Integer non tortor ac nibh hendrerit molestie sit amet sed enim. Nullam non enim a ante finibus rhoncus eu id ante. Mauris dolor ligula, commodo ut lacus varius, dapibus pretium libero. Fusce nec dui aliquam, pharetra tortor varius, interdum nunc. Donec faucibus tellus lectus, ultrices scelerisque nibh rutrum sed. Ut diam massa, aliquet quis dolor eget, cursus molestie dolor. Sed vestibulum erat leo, vitae fermentum lectus mattis in. Aenean varius feugiat libero, vel malesuada felis pulvinar ac.
-
-Morbi consectetur purus ut neque ornare, tempor semper nulla varius. Nunc vel mauris eu quam blandit commodo ac a risus. Vivamus varius et purus sed pulvinar. Maecenas ultrices eget ligula pharetra condimentum. Quisque eget ipsum metus. Aliquam dignissim molestie semper. Sed feugiat tellus quis magna efficitur, eu tincidunt arcu venenatis. In porta in urna ut tristique. Etiam sit amet elementum nulla, id tempor nunc. Mauris quis nulla augue. In vitae nisi ipsum. Cras elementum pharetra orci at aliquam.
-
-Praesent ultrices nisl sed lobortis hendrerit. Phasellus non odio nunc. Mauris nec porttitor risus, ut vulputate libero. Donec condimentum quis ex vel interdum. Aenean nec ultrices ex, congue sodales massa. Duis ultrices laoreet tempor. Duis at blandit erat. Donec odio augue, efficitur eu ex eleifend, tempor euismod mauris. Proin quis ultricies urna. Pellentesque facilisis est ut libero imperdiet vestibulum. Proin vel mauris placerat, ullamcorper eros id, pretium lorem.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>16</wp:post_id>
-		<wp:post_date><![CDATA[2017-06-15 02:13:46]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-06-15 02:13:46]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[nuevas-especies-que-tienes-que-probar-en-su-cocina]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[17]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1606,41 +1924,6 @@ Praesent ultrices nisl sed lobortis hendrerit. Phasellus non odio nunc. Mauris n
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>bill nye saves the world</title>
-		<link>http://localhost/8mandamiento/2017/06/15/bill-nye-vuelve-despues-de-9-anos-con-un-nuevo-programa-educativo/bill-nyel/</link>
-		<pubDate>Thu, 15 Jun 2017 05:39:37 +0000</pubDate>
-		<dc:creator><![CDATA[octavo]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/8mandamiento/wp-content/uploads/2017/06/bill-nyel.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Bill Nye Show]]></excerpt:encoded>
-		<wp:post_id>102</wp:post_id>
-		<wp:post_date><![CDATA[2017-06-15 05:39:37]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-06-15 05:39:37]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[bill-nyel]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>101</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/8mandamiento/wp-content/uploads/2017/06/bill-nyel.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/06/bill-nyel.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2048;s:6:"height";i:1024;s:4:"file";s:21:"2017/06/bill-nyel.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:21:"bill-nyel-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:21:"bill-nyel-300x150.jpg";s:5:"width";i:300;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:21:"bill-nyel-768x384.jpg";s:5:"width";i:768;s:6:"height";i:384;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:22:"bill-nyel-1024x512.jpg";s:5:"width";i:1024;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:17:"Eddy Chen/Netflix";s:6:"camera";s:10:"NIKON D810";s:7:"caption";s:13:"Bill Nye Show";s:17:"created_timestamp";s:10:"1477249913";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"200";s:3:"iso";s:4:"3200";s:13:"shutter_speed";s:8:"0.003125";s:5:"title";s:1:"1";s:11:"orientation";s:1:"1";s:8:"keywords";a:1:{i:0;s:2:"11";}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[bill nye saves the world]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>E3 2017</title>
 		<link>http://localhost/8mandamiento/2017/06/15/nuevos-desrrollos-de-e3-en-eeuu/e3_1/</link>
 		<pubDate>Thu, 15 Jun 2017 05:47:50 +0000</pubDate>
@@ -1711,6 +1994,192 @@ Praesent ultrices nisl sed lobortis hendrerit. Phasellus non odio nunc. Mauris n
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>bill nye saves the world</title>
+		<link>http://localhost/8mandamiento/2017/06/15/bill-nye-vuelve-despues-de-9-anos-con-un-nuevo-programa-educativo/636222659766766718217806594_bill-nye-saves-the-world-021-1280x720/</link>
+		<pubDate>Fri, 16 Jun 2017 03:34:10 +0000</pubDate>
+		<dc:creator><![CDATA[octavo]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/8mandamiento/wp-content/uploads/2017/06/636222659766766718217806594_bill-nye-saves-the-world-021-1280x720.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>117</wp:post_id>
+		<wp:post_date><![CDATA[2017-06-16 03:34:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-06-16 03:34:10]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[636222659766766718217806594_bill-nye-saves-the-world-021-1280x720]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>101</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://localhost/8mandamiento/wp-content/uploads/2017/06/636222659766766718217806594_bill-nye-saves-the-world-021-1280x720.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/06/636222659766766718217806594_bill-nye-saves-the-world-021-1280x720.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:720;s:4:"file";s:77:"2017/06/636222659766766718217806594_bill-nye-saves-the-world-021-1280x720.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:77:"636222659766766718217806594_bill-nye-saves-the-world-021-1280x720-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:77:"636222659766766718217806594_bill-nye-saves-the-world-021-1280x720-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:77:"636222659766766718217806594_bill-nye-saves-the-world-021-1280x720-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:78:"636222659766766718217806594_bill-nye-saves-the-world-021-1280x720-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bill nye saves the world]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Logotipo</title>
+		<link>http://localhost/8mandamiento/logo/</link>
+		<pubDate>Fri, 16 Jun 2017 19:50:28 +0000</pubDate>
+		<dc:creator><![CDATA[octavo]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/8mandamiento/wp-content/uploads/2017/06/LOGO.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>119</wp:post_id>
+		<wp:post_date><![CDATA[2017-06-16 19:50:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-06-16 19:50:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[logo]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://localhost/8mandamiento/wp-content/uploads/2017/06/LOGO.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/06/LOGO.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1419;s:6:"height";i:317;s:4:"file";s:16:"2017/06/LOGO.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"LOGO-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:15:"LOGO-300x67.jpg";s:5:"width";i:300;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:16:"LOGO-768x172.jpg";s:5:"width";i:768;s:6:"height";i:172;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:17:"LOGO-1024x229.jpg";s:5:"width";i:1024;s:6:"height";i:229;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Octavo Mandamiento]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>cropped-LOGO.jpg</title>
+		<link>http://localhost/8mandamiento/cropped-logo-jpg/</link>
+		<pubDate>Fri, 16 Jun 2017 19:51:04 +0000</pubDate>
+		<dc:creator><![CDATA[octavo]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/8mandamiento/wp-content/uploads/2017/06/cropped-LOGO.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[http://localhost/8mandamiento/wp-content/uploads/2017/06/cropped-LOGO.jpg]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>120</wp:post_id>
+		<wp:post_date><![CDATA[2017-06-16 19:51:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-06-16 19:51:04]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cropped-logo-jpg]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://localhost/8mandamiento/wp-content/uploads/2017/06/cropped-LOGO.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/06/cropped-LOGO.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom-logo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1419;s:6:"height";i:317;s:4:"file";s:24:"2017/06/cropped-LOGO.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"cropped-LOGO-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:23:"cropped-LOGO-300x67.jpg";s:5:"width";i:300;s:6:"height";i:67;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:24:"cropped-LOGO-768x172.jpg";s:5:"width";i:768;s:6:"height";i:172;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:25:"cropped-LOGO-1024x229.jpg";s:5:"width";i:1024;s:6:"height";i:229;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>El verdadero beneficio de comer zanahorias</title>
+		<link>http://localhost/8mandamiento/2017/06/15/el-verdadero-beneficio-de-comer-zanahorias/</link>
+		<pubDate>Thu, 15 Jun 2017 02:10:55 +0000</pubDate>
+		<dc:creator><![CDATA[octavo]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/8mandamiento/?p=13</guid>
+		<description></description>
+		<content:encoded><![CDATA[Suspendisse potenti. In eget finibus urna. Mauris tempor vel quam in ultrices. Vestibulum pretium nunc a diam ornare, non semper velit imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Nam id leo dapibus, maximus ante ut, pulvinar dui. Nullam eget tortor tellus.
+<h3>Lorem Ipsum</h3>
+Pellentesque venenatis dolor tempus tempus placerat. <em>Nam semper luctus erat, eu cursus nulla condimentum et. Nunc vulputate nunc porttitor neque ultricies fermentum.</em> Etiam bibendum accumsan nisl id maximus. Aliquam erat volutpat. Cras nunc tellus, commodo et libero ac, auctor venenatis magna. Duis dictum elit non eros consequat tempus. Ut elementum mi at ante elementum, ac egestas lacus commodo. Aenean bibendum justo vitae mauris rutrum dapibus. <em>Donec porta mauris bibendum, vestibulum tellus vitae, dapibus nulla</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in dolor a nulla ultricies malesuada ac id nibh.
+
+Curabitur a quam nisi. Duis non ante ipsum. Nam porttitor sed augue non faucibus. Aenean ultrices sem eget nunc varius ultrices. Sed gravida euismod tempus. Aliquam convallis consequat posuere. Mauris porttitor nec felis in scelerisque. Ut aliquet nulla sit amet nibh imperdiet luctus. Donec eu rhoncus risus. In eleifend sit amet neque hendrerit condimentum. <em>Suspendisse molestie tincidunt pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in sollicitudin nibh.</em> Quisque id ornare lorem. Phasellus mollis, metus ac pharetra semper, augue enim vehicula sapien, quis volutpat massa purus id purus. In porta magna at venenatis sollicitudin.
+
+Aliquam vitae diam vel leo sagittis sagittis vel non purus. <strong>Integer id consequat sapien.</strong> Donec eleifend volutpat augue at pharetra. Suspendisse ac justo sit amet erat sodales volutpat. Aenean ut porta felis. Aliquam a ultrices velit. Pellentesque justo libero, tincidunt a sollicitudin quis, ullamcorper in nunc. Duis vel malesuada leo. Integer convallis nulla nec faucibus vehicula.
+
+Nulla mattis ligula nibh, non mattis massa sollicitudin sit amet. In ac venenatis nunc. Nam quis erat egestas, euismod sem a, elementum mi. Suspendisse potenti. Duis vestibulum velit vitae metus ullamcorper, interdum malesuada mi tincidunt. Praesent nibh felis, consectetur a dui eget, varius ultricies quam. Integer tincidunt tortor non aliquam lacinia.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2017-06-15 02:10:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-06-15 02:10:55]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[el-verdadero-beneficio-de-comer-zanahorias]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="ciencia"><![CDATA[Ciencia]]></category>
+		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[14]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Nuevas especies que tienes que probar en su cocina!</title>
+		<link>http://localhost/8mandamiento/2017/06/15/nuevas-especies-que-tienes-que-probar-en-su-cocina/</link>
+		<pubDate>Thu, 15 Jun 2017 02:13:46 +0000</pubDate>
+		<dc:creator><![CDATA[octavo]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/8mandamiento/?p=16</guid>
+		<description></description>
+		<content:encoded><![CDATA[Donec aliquet egestas metus quis accumsan. Aenean mattis varius rhoncus. Duis aliquam dolor nisi, quis sollicitudin dolor ultrices at. Fusce commodo velit in dignissim volutpat. Nulla sed consectetur enim, quis venenatis dolor. Phasellus vulputate eu sem at mollis. Ut in ligula ut magna pharetra gravida id id nisl. Nunc sed ante et est cursus molestie. Mauris placerat elementum iaculis. Nam posuere sed dolor ac aliquam. Nam eu augue aliquam, porttitor libero eget, bibendum dui. Morbi eget dolor sed felis fringilla interdum. Morbi dapibus turpis mattis eros vestibulum hendrerit. Maecenas sed nunc eros.
+
+Donec viverra elit orci, sed tristique mauris feugiat nec. Morbi fringilla libero id sapien elementum porttitor. Donec mollis condimentum mi vel fringilla. Maecenas tincidunt interdum tortor eu pharetra. Nulla arcu elit, elementum et turpis sed, malesuada sagittis tellus. Integer non tortor ac nibh hendrerit molestie sit amet sed enim. Nullam non enim a ante finibus rhoncus eu id ante. Mauris dolor ligula, commodo ut lacus varius, dapibus pretium libero. Fusce nec dui aliquam, pharetra tortor varius, interdum nunc. Donec faucibus tellus lectus, ultrices scelerisque nibh rutrum sed. Ut diam massa, aliquet quis dolor eget, cursus molestie dolor. Sed vestibulum erat leo, vitae fermentum lectus mattis in. Aenean varius feugiat libero, vel malesuada felis pulvinar ac.
+
+Morbi consectetur purus ut neque ornare, tempor semper nulla varius. Nunc vel mauris eu quam blandit commodo ac a risus. Vivamus varius et purus sed pulvinar. Maecenas ultrices eget ligula pharetra condimentum. Quisque eget ipsum metus. Aliquam dignissim molestie semper. Sed feugiat tellus quis magna efficitur, eu tincidunt arcu venenatis. In porta in urna ut tristique. Etiam sit amet elementum nulla, id tempor nunc. Mauris quis nulla augue. In vitae nisi ipsum. Cras elementum pharetra orci at aliquam.
+
+Praesent ultrices nisl sed lobortis hendrerit. Phasellus non odio nunc. Mauris nec porttitor risus, ut vulputate libero. Donec condimentum quis ex vel interdum. Aenean nec ultrices ex, congue sodales massa. Duis ultrices laoreet tempor. Duis at blandit erat. Donec odio augue, efficitur eu ex eleifend, tempor euismod mauris. Proin quis ultricies urna. Pellentesque facilisis est ut libero imperdiet vestibulum. Proin vel mauris placerat, ullamcorper eros id, pretium lorem.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date><![CDATA[2017-06-15 02:13:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-06-15 02:13:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[nuevas-especies-que-tienes-que-probar-en-su-cocina]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[17]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Todo lo que se perdio de Haute Couture 2017</title>
 		<link>http://localhost/8mandamiento/2017/06/15/todo-lo-que-se-perdio-de-haute-couture-2017/</link>
 		<pubDate>Thu, 15 Jun 2017 02:32:53 +0000</pubDate>
@@ -1736,7 +2205,11 @@ Maecenas vel ante egestas, consectetur nisl id, sollicitudin urna. Etiam aliquam
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="europa"><![CDATA[Europa]]></category>
+		<category domain="post_tag" nicename="fashion"><![CDATA[Fashion]]></category>
+		<category domain="post_tag" nicename="francia"><![CDATA[Francia]]></category>
 		<category domain="category" nicename="moda"><![CDATA[Moda]]></category>
+		<category domain="post_tag" nicename="moda"><![CDATA[Moda]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1771,7 +2244,10 @@ Aliquam et dui in nisi aliquam luctus. Curabitur sit amet nibh cursus, ultricies
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="fashion"><![CDATA[Fashion]]></category>
+		<category domain="post_tag" nicename="hombre"><![CDATA[Hombre]]></category>
 		<category domain="category" nicename="moda"><![CDATA[Moda]]></category>
+		<category domain="post_tag" nicename="moda"><![CDATA[Moda]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1814,7 +2290,11 @@ Suspendisse molestie consequat odio in volutpat. Maecenas posuere odio quis veli
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="europa"><![CDATA[Europa]]></category>
+		<category domain="post_tag" nicename="fashion"><![CDATA[Fashion]]></category>
+		<category domain="post_tag" nicename="inglaterra"><![CDATA[Inglaterra]]></category>
 		<category domain="category" nicename="moda"><![CDATA[Moda]]></category>
+		<category domain="post_tag" nicename="moda"><![CDATA[Moda]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1851,7 +2331,10 @@ Proin dictum faucibus nisl, fringilla vehicula est imperdiet a. Ut malesuada mi 
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="fashion"><![CDATA[Fashion]]></category>
 		<category domain="category" nicename="moda"><![CDATA[Moda]]></category>
+		<category domain="post_tag" nicename="moda"><![CDATA[Moda]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1887,7 +2370,9 @@ Suspendisse non tellus nec magna ornare pulvinar et vel lorem. Nullam accumsan t
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="fashion"><![CDATA[Fashion]]></category>
 		<category domain="category" nicename="moda"><![CDATA[Moda]]></category>
+		<category domain="post_tag" nicename="moda"><![CDATA[Moda]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1930,7 +2415,9 @@ Suspendisse non tellus nec magna ornare pulvinar et vel lorem. Nullam accumsan t
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="fashion"><![CDATA[Fashion]]></category>
 		<category domain="category" nicename="mujer"><![CDATA[Mujer]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1968,7 +2455,10 @@ Suspendisse non tellus nec magna ornare pulvinar et vel lorem. Nullam accumsan t
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="seguridad"><![CDATA[Seguridad]]></category>
 		<category domain="category" nicename="tecnologia"><![CDATA[Tecnología]]></category>
+		<category domain="post_tag" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2005,7 +2495,9 @@ Donec mattis sollicitudin turpis, vel scelerisque mauris bibendum a. Etiam eu qu
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="smart"><![CDATA[Smart]]></category>
 		<category domain="category" nicename="tecnologia"><![CDATA[Tecnología]]></category>
+		<category domain="post_tag" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2042,7 +2534,10 @@ Donec viverra elit orci, sed tristique mauris feugiat nec. Morbi fringilla liber
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="smart"><![CDATA[Smart]]></category>
 		<category domain="category" nicename="tecnologia"><![CDATA[Tecnología]]></category>
+		<category domain="post_tag" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
+		<category domain="post_tag" nicename="television"><![CDATA[Television]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2080,6 +2575,7 @@ Maecenas vel ante egestas, consectetur nisl id, sollicitudin urna. Etiam aliquam
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="educacion"><![CDATA[Educación]]></category>
+		<category domain="post_tag" nicename="trafico"><![CDATA[Tráfico]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2118,6 +2614,7 @@ Maecenas vel ante egestas, consectetur nisl id, sollicitudin urna. Etiam aliquam
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="ciencia"><![CDATA[Ciencia]]></category>
 		<category domain="category" nicename="educacion"><![CDATA[Educación]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -2155,8 +2652,10 @@ In hac habitasse platea dictumst. Donec et scelerisque nibh. Vestibulum lacinia 
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="drones"><![CDATA[Drones]]></category>
 		<category domain="category" nicename="politica"><![CDATA[Política]]></category>
 		<category domain="category" nicename="tecnologia"><![CDATA[Tecnología]]></category>
+		<category domain="post_tag" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2196,7 +2695,8 @@ Donec congue sit amet nisl ut fermentum. Proin sit amet tellus bibendum, interdu
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="deportes"><![CDATA[Deportes]]></category>
-		<category domain="post_tag" nicename="otros"><![CDATA[Otros Deportes]]></category>
+		<category domain="post_tag" nicename="hockey"><![CDATA[Hockey]]></category>
+		<category domain="category" nicename="otros"><![CDATA[Otros Deportes]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2233,6 +2733,8 @@ Morbi consectetur purus ut neque ornare, tempor semper nulla varius. Nunc vel ma
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="biologia"><![CDATA[Biologia]]></category>
+		<category domain="post_tag" nicename="ciencia"><![CDATA[Ciencia]]></category>
 		<category domain="category" nicename="educacion"><![CDATA[Educación]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -2268,6 +2770,7 @@ Donec mattis sollicitudin turpis, vel scelerisque mauris bibendum a. Etiam eu qu
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="ciencia"><![CDATA[Ciencia]]></category>
 		<category domain="category" nicename="educacion"><![CDATA[Educación]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -2307,7 +2810,9 @@ Maecenas vel ante egestas, consectetur nisl id, sollicitudin urna. Etiam aliquam
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="nueva-esparta"><![CDATA[Nueva Esparta]]></category>
 		<category domain="category" nicename="regional"><![CDATA[Regionales]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2345,6 +2850,8 @@ In hac habitasse platea dictumst. Donec et scelerisque nibh. Vestibulum lacinia 
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="nueva-esparta"><![CDATA[Nueva Esparta]]></category>
 		<category domain="category" nicename="regional"><![CDATA[Regionales]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -2380,7 +2887,9 @@ In vitae neque faucibus risus dictum bibendum a at libero. Aliquam sit amet aliq
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="eeuu"><![CDATA[EEUU]]></category>
 		<category domain="category" nicename="politica"><![CDATA[Política]]></category>
+		<category domain="post_tag" nicename="protestas"><![CDATA[Protestas]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2419,7 +2928,10 @@ Maecenas vel ante egestas, consectetur nisl id, sollicitudin urna. Etiam aliquam
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="europa"><![CDATA[Europa]]></category>
+		<category domain="post_tag" nicename="francia"><![CDATA[Francia]]></category>
 		<category domain="category" nicename="politica"><![CDATA[Política]]></category>
+		<category domain="post_tag" nicename="politica"><![CDATA[Politica]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2456,6 +2968,7 @@ Donec congue sit amet nisl ut fermentum. Proin sit amet tellus bibendum, interdu
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="europa"><![CDATA[Europa]]></category>
 		<category domain="post_tag" nicename="opinion"><![CDATA[Opinion]]></category>
 		<category domain="category" nicename="politica"><![CDATA[Política]]></category>
 		<wp:postmeta>
@@ -2496,7 +3009,10 @@ Aliquam et dui in nisi aliquam luctus. Curabitur sit amet nibh cursus, ultricies
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="nueva-esparta"><![CDATA[Nueva Esparta]]></category>
 		<category domain="category" nicename="regional"><![CDATA[Regionales]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
+		<category domain="post_tag" nicename="vacaciones"><![CDATA[Vacaciones]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2531,7 +3047,9 @@ Nunc sit amet iaculis nibh, eget auctor ipsum. Vestibulum sit amet maximus diam.
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="nueva-esparta"><![CDATA[Nueva Esparta]]></category>
 		<category domain="category" nicename="politica"><![CDATA[Política]]></category>
+		<category domain="post_tag" nicename="politica"><![CDATA[Politica]]></category>
 		<category domain="category" nicename="regional"><![CDATA[Regionales]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -2574,7 +3092,9 @@ Suspendisse molestie consequat odio in volutpat. Maecenas posuere odio quis veli
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="deportes"><![CDATA[Deportes]]></category>
-		<category domain="post_tag" nicename="football"><![CDATA[Football]]></category>
+		<category domain="category" nicename="futbol"><![CDATA[Fútbol]]></category>
+		<category domain="post_tag" nicename="futbol"><![CDATA[Fútbol]]></category>
+		<category domain="post_tag" nicename="sub20"><![CDATA[Sub20]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2613,8 +3133,11 @@ Proin accumsan vehicula libero sed molestie. Phasellus porta elit in quam laoree
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="beisbol"><![CDATA[Beisbol]]></category>
+		<category domain="category" nicename="beisbol"><![CDATA[Beisbol]]></category>
 		<category domain="category" nicename="deportes"><![CDATA[Deportes]]></category>
+		<category domain="post_tag" nicename="eeuu"><![CDATA[EEUU]]></category>
+		<category domain="post_tag" nicename="mayor-league-baseball"><![CDATA[Mayor League Baseball]]></category>
+		<category domain="post_tag" nicename="mlb"><![CDATA[MLB]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2666,6 +3189,7 @@ Nulla risus leo, porta id varius non, maximus id justo. Aenean venenatis dictum 
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="baloncesto"><![CDATA[Baloncesto]]></category>
 		<category domain="post_tag" nicename="basketball"><![CDATA[Basketball]]></category>
 		<category domain="category" nicename="deportes"><![CDATA[Deportes]]></category>
 		<wp:postmeta>
@@ -2705,7 +3229,8 @@ Donec nunc justo, fermentum sed ultrices non, vehicula at tortor. Curabitur fauc
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="deportes"><![CDATA[Deportes]]></category>
-		<category domain="post_tag" nicename="otros"><![CDATA[Otros Deportes]]></category>
+		<category domain="post_tag" nicename="deportes-extremos"><![CDATA[Deportes Extremos]]></category>
+		<category domain="category" nicename="otros"><![CDATA[Otros Deportes]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2742,7 +3267,11 @@ Quisque in odio dignissim, lacinia nunc sed, commodo nulla. Mauris finibus lacus
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="politica"><![CDATA[Politica]]></category>
+		<category domain="post_tag" nicename="protestas"><![CDATA[Protestas]]></category>
 		<category domain="category" nicename="regional"><![CDATA[Regionales]]></category>
+		<category domain="post_tag" nicename="seguridad"><![CDATA[Seguridad]]></category>
+		<category domain="post_tag" nicename="trafico"><![CDATA[Tráfico]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2777,14 +3306,17 @@ Nulla risus leo, porta id varius non, maximus id justo. Aenean venenatis dictum 
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="ciencia"><![CDATA[Ciencia]]></category>
 		<category domain="category" nicename="educacion"><![CDATA[Educación]]></category>
+		<category domain="post_tag" nicename="netflix"><![CDATA[Netflix]]></category>
+		<category domain="post_tag" nicename="television"><![CDATA[Television]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[102]]></wp:meta_value>
+			<wp:meta_value><![CDATA[117]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -2816,7 +3348,11 @@ Cras mattis tempus orci at hendrerit. Aliquam congue velit a neque pellentesque 
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="e3"><![CDATA[E3]]></category>
+		<category domain="post_tag" nicename="eeuu"><![CDATA[EEUU]]></category>
 		<category domain="category" nicename="tecnologia"><![CDATA[Tecnología]]></category>
+		<category domain="post_tag" nicename="tecnologia"><![CDATA[Tecnologia]]></category>
+		<category domain="post_tag" nicename="video-juegos"><![CDATA[Video Juegos]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -2855,6 +3391,8 @@ Cras mattis tempus orci at hendrerit. Aliquam congue velit a neque pellentesque 
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="cocina"><![CDATA[Cocina]]></category>
+		<category domain="post_tag" nicename="tips"><![CDATA[Tips]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
