@@ -5,7 +5,7 @@ $query1 = new WP_Query("posts_per_page=8");
 /* Slider */
 $query2 = new WP_Query("posts_per_page=4");
 /* Ultimas Noticias */
-$query3 = new WP_Query('posts_per_page=6&offset=4');
+$query3 = new WP_Query('posts_per_page=5&offset=4');
 /* Deportes 1 */
 $query4 = new WP_Query('posts_per_page=1&cat=3');
 /* Deportes 2 */
@@ -59,21 +59,11 @@ $query12 = new WP_Query('posts_per_page=4&cat=17&offset=1');
   <section id="sliderSection">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-8">
-        <div class="slick_slider" id="no-overflow">
-          <?php
-          if ( $query2->have_posts() ) :
-            while ( $query2->have_posts() ) : $query2->the_post(); ?>
-          <div class="single_iteam"> <a href=<?php the_permalink(); ?>> <img src=<?php the_post_thumbnail(); ?>></a>
-            <div class="slider_article">
-              <h2><a class="slider_tittle" href=<?php the_permalink(); ?>><?php the_title(); ?></a></h2>
-              <p><?php the_excerpt(); ?></p>
-            </div>
-          </div>
-        <?php endwhile; // Reset postdata
-          wp_reset_postdata();
-          else : ?> <li><a href="#"> Disculpa, no pudimos conseguir ningunas noticias. Vuelva pronto!</a></li> <?php endif;?>
+        <div id="no-overflow">
+          <?php echo do_shortcode('[slick-slider design="design-2" sliderheight="400" variablewidth="true"]')?>
         </div>
       </div>
+
       <div class="col-lg-4 col-md-4 col-sm-4">
         <div class="latest_post">
           <h2><span>Ultimas Noticias</span></h2>
@@ -84,13 +74,13 @@ $query12 = new WP_Query('posts_per_page=4&cat=17&offset=1');
               if ($query3->have_posts()):
                   while ( $query3->have_posts() ): $query3->the_post();?>
               <li>
-                <div class="media"> <a href=<?php the_permalink(); ?> class="media-left"> <img src=<?php the_post_thumbnail(); ?> </a>
-                  <div class="media-body"> <a href=<?php the_permalink(); ?> class="catg_title"> <?php the_title(); ?></a> </div>
+                <div class="media"> <a class="media-left" href=<?php the_permalink(); ?>> <?php the_post_thumbnail(); ?> </a>
+                  <div class="media-body"> <a class="catg_title" href=<?php the_permalink(); ?>> <?php the_title(); ?></a> </div>
                 </div>
               </li>
-              <?php endwhile; // Reset postdata
-                wp_reset_postdata();
-                else : ?> <li><a href="#"> Disculpa, no pudimos conseguir ningunas noticias. Vuelva pronto!</a></li> <?php endif;?>
+            <?php endwhile; // Reset postdata
+              wp_reset_postdata();
+              else : ?> <li><a href="#"> Disculpa, no pudimos conseguir ningunas noticias. Vuelva pronto!</a></li> <?php endif;?>
             </ul>
             <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
           </div>
