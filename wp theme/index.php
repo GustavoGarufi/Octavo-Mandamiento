@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 <?php
-/* Noticias Destacadas */
-$query1 = new WP_Query("posts_per_page=8");
 /* Slider */
 $query2 = new WP_Query("posts_per_page=4");
 /* Ultimas Noticias */
@@ -25,36 +23,6 @@ $query11 = new WP_Query('posts_per_page=1&cat=17');
 /* Cine Y Teatro*/
 $query12 = new WP_Query('posts_per_page=4&cat=17&offset=1');
     ?>
-  <section id="newsSection">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="latest_newsarea"> <span>Noticias Destacadas</span>
-          <ul id="ticker01" class="news_sticker">
-            <?php
-            if ( $query1->have_posts() ) :
-            	while ( $query1->have_posts() ) : $query1->the_post(); ?>
-              <li><a href=<?php the_permalink(); ?>><img src=<?php the_post_thumbnail();?> <?php the_title(); ?></a></li>
-            <?php endwhile;
-          // Reset postdata
-          wp_reset_postdata();
-          else : ?> <li><a href="#"> Disculpa, no pudimos conseguir ningunas noticias. Vuelva pronto!</a></li> <?php endif;?>
-          </ul>
-          <div class="social_area">
-            <ul class="social_nav">
-              <li class="facebook"><a href="#"></a></li>
-              <li class="twitter"><a href="#"></a></li>
-              <li class="flickr"><a href="#"></a></li>
-              <li class="pinterest"><a href="#"></a></li>
-              <li class="googleplus"><a href="#"></a></li>
-              <li class="vimeo"><a href="#"></a></li>
-              <li class="youtube"><a href="#"></a></li>
-              <li class="mail"><a href="#"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section id="sliderSection">
     <div class="row">
