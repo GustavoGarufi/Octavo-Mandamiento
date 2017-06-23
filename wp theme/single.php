@@ -14,32 +14,9 @@
             <br>
             <h1><?php the_title(); ?></h1>
             <div class="post_commentbox"> <a href="<?php echo the_author_link(); ?>"><i class="fa fa-user"></i><?php echo get_the_author(); ?></a> <span><i class="fa fa-calendar"></i><?php the_date('Y-m-d')?></span> <a href="#"><i class="fa fa-tags"></i><?php get_the_tags(); ?></a> </div>
-            <div class="single_page_content"> <img class="img-center" src="../images/single_post_img.jpg" alt="">
-              <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus.</p>
-              <blockquote> Donec volutpat nibh sit amet libero ornare non laoreet arcu luctus. Donec id arcu quis mauris euismod placerat sit amet ut metus. Sed imperdiet fringilla sem eget euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque adipiscing, neque ut pulvinar tincidunt, est sem euismod odio, eu ullamcorper turpis nisl sit amet velit. Nullam vitae nibh odio, non scelerisque nibh. Vestibulum ut est augue, in varius purus. </blockquote>
-              <ul>
-                <li>Nullam vitae nibh odio, non scelerisque nibh</li>
-                <li>Nullam vitae nibh odio, non scelerisque nibh</li>
-                <li>Nullam vitae nibh odio, non scelerisque nibh</li>
-                <li>Nullam vitae nibh odio, non scelerisque nibh</li>
-                <li>Nullam vitae nibh odio, non scelerisque nibh</li>
-                <li>Nullam vitae nibh odio, non scelerisque nibh</li>
-              </ul>
-              <h2>Esto es un titulo h2</h2>
-              <h3>Esto es un titulo h3</h3>
-              <h4>Esto es un titulo h4</h4>
-              <h5>Esto es un titulo h5</h5>
-              <h6>Esto es un titulo h6</h6>
-              <button class="btn default-btn">Botton normal</button>
-              <button class="btn btn-red">Botton rojo</button>
-              <button class="btn btn-yellow">Botton amarillo</button>
-              <button class="btn btn-green">Botton verde</button>
-              <button class="btn btn-black">Botton negro</button>
-              <button class="btn btn-orange">Botton naranja</button>
-              <button class="btn btn-blue">Botton azul</button>
-              <button class="btn btn-lime">Botton verde limon</button>
-              <button class="btn btn-theme">Botton del tema</button>
-            </div>
+            <div class="single_page_content"> <img class="img-center" <?php the_post_thumbnail(); ?>
+              <?php the_content(); ?>
+          </div>
             <div class="social_link">
               <ul class="sociallink_nav">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
