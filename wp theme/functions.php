@@ -13,20 +13,243 @@ function register_my_menus() {
 	 }add_action( 'init', 'register_my_menus' );
 // Register $wp_customize
 function octavomandamiento_customize_register( $wp_customize ) {
+	//Settings
 	$wp_customize->add_setting('Main_Color', array(
 		'default'=> '#E46C09',
 		'transport' => 'refresh',
 	));
+
+	$wp_customize->add_setting('Facebook', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Facebook2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Twitter', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Twitter2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Flickr', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Flickr2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Pintrest', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Pintrest2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Googleplus', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Googleplus2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Vimio', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Vimio2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Youtube', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Youtube2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Mail', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Mail2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
+	$wp_customize->add_setting('Linkedin', array(
+		'default'=> 'mostrar',
+		'transport' => 'refresh',
+	));
+	$wp_customize->add_setting('Linkedin2', array(
+		'default'=> '#',
+		'transport' => 'refresh',
+	));
+
 	$wp_customize->add_section( 'Colores' , array(
 	    'title' =>  __('Colores', 'Octavo Mandamiento'),
 			'priority'=> 30,
+	));
+	$wp_customize->add_section( 'Redes Sociales' , array(
+	    'title' =>  __('Redes Sociales', 'Octavo Mandamiento'),
+			'priority'=> 29,
 	));
 	$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize, 'Main_Color_Control', array(
 		'label' => __('Colores Standards', 'Octavo Mandamiento'),
 		'section' => 'Colores',
 		'settings' => 'Main_Color'
 	)));
-	} add_action( 'customize_register', 'octavomandamiento_customize_register' );
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Facebook_Hide_Control', array(
+    'label'          => __( 'Mostrar Facebook?', 'Octavo Mandamiento' ),
+    'section'        => 'Redes Sociales',
+    'settings'       => 'Facebook',
+    'type'           => 'radio',
+    'choices'        => array(
+        ' '   => __( 'Si' ),
+        'hidden'  => __( 'No' )
+  ))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Facebook_Link_Control', array(
+		'label'          => __( 'Link de Facebook', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Facebook2',
+		'type'           => 'url',
+		)));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Twitter_Hide_Control', array(
+		'label'          => __( 'Mostrar Twitter?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Twitter',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Twitter_Link_Control', array(
+		'label'          => __( 'Link de Twitter', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Twitter2',
+		'type'           => 'url',
+		)));
+
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Flickr_Hide_Control', array(
+		'label'          => __( 'Mostrar Flickr?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Flickr',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Flickr_Link_Control', array(
+		'label'          => __( 'Link de Flickr', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Flickr2',
+		'type'           => 'url',
+		)));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Pintrest_Hide_Control', array(
+		'label'          => __( 'Mostrar Pintrest?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Pintrest',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Pintrest_Link_Control', array(
+		'label'          => __( 'Link de Pintrest', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Pintrest2',
+		'type'           => 'url',
+		)));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Googleplus_Hide_Control', array(
+		'label'          => __( 'Mostrar Google Plus?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Googleplus',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Googleplus_Link_Control', array(
+		'label'          => __( 'Link de Google Plus', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Googleplus2',
+		'type'           => 'url',
+		)));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Vimio_Hide_Control', array(
+		'label'          => __( 'Mostrar Vimio?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Vimio',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Vimio_Link_Control', array(
+		'label'          => __( 'Link de Vimio', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Vimio2',
+		'type'           => 'url',
+		)));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Youtube_Hide_Control', array(
+		'label'          => __( 'Mostrar Youtube?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Youtube',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Youtube_Link_Control', array(
+		'label'          => __( 'Link de Youtube', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Youtube2',
+		'type'           => 'url',
+		)));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Mail_Hide_Control', array(
+		'label'          => __( 'Mostrar Correo?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Mail',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Mail_Link_Control', array(
+		'label'          => __( 'Direccion de Correo Electronico', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Facebook2',
+		'type'           => 'Email',
+		)));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Linkedin_Hide_Control', array(
+		'label'          => __( 'Mostrar Linkedin?', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Linkedin',
+		'type'           => 'radio',
+		'choices'        => array(
+				' '   => __( 'Si' ),
+				'hidden'  => __( 'No' )
+	))));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'Linkedin_Link_Control', array(
+		'label'          => __( 'Link de Linkedin', 'Octavo Mandamiento' ),
+		'section'        => 'Redes Sociales',
+		'settings'       => 'Linkedin2',
+		'type'           => 'url',
+		)));
+	;} add_action( 'customize_register', 'octavomandamiento_customize_register' );
 //Output $wp_customize CSS
 function octavomandamiento_custom_css(){ ?>
 	<style type="text/css">

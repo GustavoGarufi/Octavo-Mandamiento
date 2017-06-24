@@ -30,11 +30,11 @@
             </div>
             <div class="social_link">
               <ul class="sociallink_nav">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                <li class=" <?php echo get_theme_mod('Facebook'); ?>"><a href="<?php echo get_theme_mod('Facebook2'); ?>"><i class="fa fa-facebook"></i></a></li>
+                <li class=" <?php echo get_theme_mod('Twitter'); ?>"><a href="<?php echo get_theme_mod('Twitter2'); ?>"><i class="fa fa-twitter"></i></a></li>
+                <li class=" <?php echo get_theme_mod('Googleplus'); ?>"><a href="get_theme_mod('Googleplus2'); ?>"><i class="fa fa-google-plus"></i></a></li>
+                <li class=" <?php echo get_theme_mod('Linkedin'); ?>"><a href="<?php echo get_theme_mod('Linkedin2'); ?>"><i class="fa fa-linkedin"></i></a></li>
+                <li class=" <?php echo get_theme_mod('Pintrest'); ?>"><a href="<?php echo get_theme_mod('Pintrest2'); ?>"><i class="fa fa-pinterest"></i></a></li>
               </ul>
             </div>
                 <div class="wow fadeInDown">

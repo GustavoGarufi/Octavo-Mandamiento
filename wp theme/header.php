@@ -86,14 +86,14 @@
           </ul>
           <div class="social_area">
             <ul class="social_nav">
-              <li class="facebook"><a href="#"></a></li>
-              <li class="twitter"><a href="#"></a></li>
-              <li class="flickr"><a href="#"></a></li>
-              <li class="pinterest"><a href="#"></a></li>
-              <li class="googleplus"><a href="#"></a></li>
-              <li class="vimeo"><a href="#"></a></li>
-              <li class="youtube"><a href="#"></a></li>
-              <li class="mail"><a href="#"></a></li>
+              <li class="facebook <?php echo get_theme_mod('Facebook'); ?>"><a href="<?php echo get_theme_mod('Facebook2'); ?>"></a></li>
+              <li class="twitter <?php echo get_theme_mod('Twitter'); ?>"><a href="<?php echo get_theme_mod('Twitter2'); ?>"></a></li>
+              <li class="flickr <?php echo get_theme_mod('Flickr'); ?>"><a href="<?php echo get_theme_mod('Flickr2'); ?>"></a></li>
+              <li class="pinterest <?php echo get_theme_mod('Pintrest'); ?>"><a href="<?php echo get_theme_mod('Pintrest2'); ?>"></a></li>
+              <li class="googleplus <?php echo get_theme_mod('Googleplus'); ?>"><a href="<?php echo get_theme_mod('Googleplus2'); ?>"></a></li>
+              <li class="vimeo <?php echo get_theme_mod('Vimio'); ?>"><a href="<?php echo get_theme_mod('Vimio2'); ?>"></a></li>
+              <li class="youtube <?php echo get_theme_mod('Youtube'); ?>"><a href="<?php echo get_theme_mod('Youtube2'); ?>"></a></li>
+              <li class="mail <?php echo get_theme_mod('Mail'); ?>"><a href="<?php echo get_theme_mod('Mail2'); ?>"></a></li>
             </ul>
           </div>
         </div>
