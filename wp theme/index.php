@@ -18,9 +18,9 @@ $query8 = new WP_Query('posts_per_page=1&cat=2');
 $query9 = new WP_Query('posts_per_page=4&cat=2&offset=1');
 /* Fotografia */
 $query10 = new WP_Query('posts_per_page=6&cat=16');
-/* Cine Y Teatro*/
+/* Cine Y Teatro 1*/
 $query11 = new WP_Query('posts_per_page=1&cat=17');
-/* Cine Y Teatro*/
+/* Cine Y Teatro 2*/
 $query12 = new WP_Query('posts_per_page=4&cat=17&offset=1');
     ?>
 
@@ -208,7 +208,7 @@ $query12 = new WP_Query('posts_per_page=4&cat=17&offset=1');
                   if ($query11->have_posts()):
                   while ( $query11->have_posts() ): $query11->the_post();?>
                 <li>
-                  <figure class="bsbig_fig  wow fadeInDown"> <a class="featured_img" href=<?php the_permalink(); ?>> <img class="img-responsive" src=<?php the_post_thumbnail ?> <span class="overlay"></span> </a>
+                  <figure class="bsbig_fig  wow fadeInDown"> <a class="featured_img" href=<?php the_permalink(); ?>> <img class="img-responsive" src=<?php the_post_thumbnail(); ?> <span class="overlay"></span> </a>
                     <figcaption> <a href=<?php the_permalink(); ?>><?php the_title(); ?></a> </figcaption>
                     <p><?php the_excerpt(); ?></p>
                   </figure>

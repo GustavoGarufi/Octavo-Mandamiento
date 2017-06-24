@@ -7,16 +7,27 @@
           <div class="single_page">
             <ol class="breadcrumb">
               <li><a href="<?php echo get_home_url(); ?>">Inicio</a></li>
-              <li><a href="<?php echo get_category_link(); ?>"><?php echo get_the_category(); ?></a></li>
+              <li>
+                <?php
+                  the_category( '<a> / </a>', 'multiple', $post->ID);
+              ?> </li>
               <li class="active"><?php the_title(); ?></li>
             </ol>
               <a href="#"><img src="../images/addbanner_728x90_V1.jpg" alt=""></a>
             <br>
             <h1><?php the_title(); ?></h1>
-            <div class="post_commentbox"> <a href="<?php echo the_author_link(); ?>"><i class="fa fa-user"></i><?php echo get_the_author(); ?></a> <span><i class="fa fa-calendar"></i><?php the_date('Y-m-d')?></span> <a href="#"><i class="fa fa-tags"></i><?php get_the_tags(); ?></a> </div>
+            <div class="post_commentbox">
+
+              <a href="  "><i class="fa fa-user"></i><?php the_author_posts_link(); ?></a>
+
+              <span><i class="fa fa-calendar"></i><?php the_date('Y-m-d')?></span>
+
+              <span><i class="fa fa-tags"></i><?php the_tags(); ?></span> </div>
+
+
             <div class="single_page_content"> <img class="img-center" <?php the_post_thumbnail(); ?>
               <?php the_content(); ?>
-          </div>
+            </div>
             <div class="social_link">
               <ul class="sociallink_nav">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -54,15 +65,55 @@
           </div>
         </div>
       </div>
-      <nav class="nav-slit"> <a class="prev" href="#"> <span class="icon-wrap"><i class="fa fa-angle-left"></i></span>
-        <div>
-          <h3>City Lights</h3>
-          <img src="../images/post_img1.jpg" alt=""/> </div>
-        </a> <a class="next" href="#"> <span class="icon-wrap"><i class="fa fa-angle-right"></i></span>
-        <div>
-          <h3>Street Hills</h3>
-          <img src="../images/post_img1.jpg" alt=""/> </div>
-        </a> </nav>
+      <?php
+      $prevPost = get_previous_post(true);
+      $nextPost = get_next_post(true);
+      ?>
+      <nav class="nav-slit">
+      <?php $prevPost = get_previous_post(true);
+        if($prevPost) {
+            $args = array(
+                'posts_per_page' => 1,
+                'include' => $prevPost->ID
+            );
+            $prevPost = get_posts($args);
+            foreach ($prevPost as $post) {
+                setup_postdata($post);
+    ?>
+    <a class="prev" href="<?php the_permalink(); ?>"> <span class="icon-wrap"><i class="fa fa-angle-left"></i></span>
+     <div>
+       <div id="cooler-nav" class="navigation">
+     </div>
+       <h3><?php the_title(); ?></h3>
+       <img src=<?php the_post_thumbnail(); ?></div>
+     </a>
+    <?php
+                wp_reset_postdata();
+            } //end foreach
+        } // end if
+
+        $nextPost = get_next_post(true);
+        if($nextPost) {
+            $args = array(
+                'posts_per_page' => 1,
+                'include' => $nextPost->ID
+            );
+            $nextPost = get_posts($args);
+            foreach ($nextPost as $post) {
+                setup_postdata($post);
+    ?>
+      <a class="next" href="<?php the_permalink(); ?>"> <span class="icon-wrap"><i class="fa fa-angle-right"></i></span>
+      <div>
+        <h3><?php the_title(); ?></h3>
+        <img src=<?php the_post_thumbnail(); ?></div>
+      </a>
+    <?php
+                wp_reset_postdata();
+            } //end foreach
+        } // end if
+    ?>
+   </nav>
+
       <?php get_sidebar(); ?>
 
   <?php
