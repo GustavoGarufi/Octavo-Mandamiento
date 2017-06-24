@@ -23,11 +23,16 @@
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="header_top">
           <div class="header_top_left">
-            <ul class="top_nav">
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="#">Sobre nosotros</a></li>
-              <li><a href="pages/contact.html">Contactanos</a></li>
-            </ul>
+            <?php /* Primary navigation */
+              wp_nav_menu( array(
+                'menu' => 'Extra Menu',
+                'depth' => 2,
+                'container' => false,
+                'menu_class' => 'top_nav',
+                //Process nav menu using our custom nav walker
+                'walker' => new wp_bootstrap_navwalker())
+              );
+              ?>
           </div>
           <div class="header_top_right">
             <p> <?php the_time('l, F jS, Y') ?> </p>
@@ -47,24 +52,16 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav main_nav">
-          <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Inicio</span></a></li>
-          <li><a href="#">Technologia</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Deportes</a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Football</a></li>
-              <li><a href="#">Beisbol</a></li>
-              <li><a href="#">Basketball</a></li>
-              <li><a href="#">Otros</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Politica</a></li>
-          <li><a href="#">Regionales</a></li>
-          <li><a href="#">Mujer</a></li>
-          <li><a href="#">Moda</a></li>
-          <li><a href="#">Educación</a></li>
-          <li><a href="#">Cocina</a></li>
-        </ul>
+          <?php /* Primary navigation */
+            wp_nav_menu( array(
+              'menu' => 'Header Menu',
+              'depth' => 2,
+              'container' => false,
+              'menu_class' => 'nav main-nav navbar-nav',
+              //Process nav menu using our custom nav walker
+              'walker' => new wp_bootstrap_navwalker())
+            );
+            ?>
       </div>
     </nav>
   </section>

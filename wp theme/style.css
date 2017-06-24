@@ -2,6 +2,7 @@ body{background:#f5f5f5}
 h3.noTop{padding: 0; margin: 0} !important
 div#spacer{margin-bottom: 20px} !important
 div#no-overflow{overflow: hidden;}
+li.noBump{padding-top: 2px; padding-bottom: 2px; margin-top: 2px; margin-bottom: 2px}
 .tagcloud > a {color:#E46C09; text-decoration:none}
 ul{padding:0; margin:0; list-style:none}
 a{text-decoration:none; color:#2f2f2f}

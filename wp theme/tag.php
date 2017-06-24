@@ -10,7 +10,7 @@
       <ul class="business_catgnav  wow fadeInDown">
         <?php
           if ( have_posts() ) { while ( have_posts() ) { the_post(); ?>
-            <li>
+            <li class="noBump">
               <div class="col-sm-5 col-md-5 col-lg-5">
                 <figure class="bsbig_fig"> <a href=<?php the_permalink(); ?> class="featured_img"> <img class="img-responsive" src=<?php the_post_thumbnail(); ?> <span class="overlay"></span> </a>
               </div>
@@ -20,8 +20,11 @@
               </figure>
               </div>
             </li>
-          <?php }} ?>
+          <?php } ?>
       </ul>
+      <div class="nav-previous alignleft"><?php next_posts_link('<div class="col-lg-6 col-sm-6 col-md-6 text-left"><h4><span class="fa fa-arrow-left"></span> Older posts</h4></div>'); ?></div>
+      <div class="nav-next alignright"><?php previous_posts_link( '<div class="col-lg-6 col-sm-6 col-md-6 text-right"><h4>Newer posts <span class="fa fa-arrow-right"></span></h4></div>' ); ?></div>
+      <?php } ?>
       <p> &nbsp </p>
   </div>
 
